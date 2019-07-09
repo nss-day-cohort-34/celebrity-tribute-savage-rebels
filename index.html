@@ -11,25 +11,53 @@
     <title>Document</title>
     <link rel="stylesheet" href="Styles/main.css">
     <link rel="stylesheet" href="Styles/footer.css">
+    <link rel="stylesheet" href="Styles/home.css">
 </head>
 
 <body>
     <header class="header">
-        <img class="logo" src="johnlegend.png">
+        <img class="logo" src="Images/johnlegend.png" alt="John Legend Logo">
     </header>
     <nav class="navbar">
         <ul class="navbar__list">
-            <li class="listitem"><a href="personal.html">Personal</a></li>
-            <li class="listitem"><a href="career.html">Career</a></li>
-            <li class="listitem"><a href="newsFeed.html">News Feed</a></li>
+            <li><a class="listitem" href="personal.html">Personal</a></li>
+            <li><a class="listitem" href="career.html">Career</a></li>
+            <li><a class="listitem" href="newsFeed.html">News Feed</a></li>
         </ul>
     </nav>
     <main>
-        <h1 class="pageTitle">Home</h1>
-        <section>
-            <h2 class="name">John Legend</h2>
-            <h4 class="name name__alias">John Roger Stephens</h4>
+        <section class="topSection">
+            <section class="block"></section>
+            <section class="pageNameContainer">
+                <h1 class="pageName">Home</h1>
+            </section>
+            <img class="imgPortrait" src="Images/johnlegendportrait.jpg" alt="John Legend Portrait">
+
         </section>
+        <section class="bio1">
+            <h2 class="name">John Legend</h2>
+            <section>
+                <h4>Born:</h4>
+                <p>John Roger Stephens <br/>
+                    December 28, 1978 (age 40) <br/>
+                    Springfield, Ohio, U.S.</p>
+            </section>
+
+
+        </section>
+        <section class="bio2">
+            <h4>Collaborations</h4>
+            <ul class="collaboratorList">
+                <li><img class="EsperanzaImg" src="Images/Esperanza-Spalding.jpeg"><br/>Esperanza Spalding</li>
+                <li><img class="StevieImg" src="Images/Stevie-Wonder.jpeg"><br/>Stevie Wonder</li>
+                <li><img class="ArianaImg" src="Images/Ariana-Grande.png"><br/>Ariana Grande</li>
+                <li><img class="TheRootsImg" src="Images/The-Roots.jpg"><br/>The Roots</li>
+                <li><img class="RaphaelImg" src="Images/Raphael-Saadiq.jpeg"><br/>Raphael Saadiq</li>
+                <li><img class="ChanceImg" src="Images/Chance-The-Rapper.jpeg"><br/>Chance The Rapper</li>
+            </ul>
+            
+        </section>
+
     </main>
     <footer class="footer">
         <ul class="ul__socialLinks">
