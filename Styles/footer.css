@@ -1,0 +1,20 @@
+.footer {
+    background-color: #62929a;
+    color: #efecec;
+    padding: 50px 0;
+}
+
+.ul__socialLinks {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+
+.byline {
+    padding: 35px 0 0 0;
+    text-align: center;
+}
+
+.a__sociallinks--white {
+    color: inherit;
+}
