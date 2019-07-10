@@ -15,21 +15,20 @@
     align-content: center;
     line-height: 30px;
     margin: 0 0 25px 0;
+    text-align: center;
 }
 
 .h2 {
     text-align: center;
 }
-.newsFeedContent__ul {
+.ul {
     list-style-type: none;
 }
 
 .content__container {
     width: 50%;
-    text-align: center;
 }
 
 .image__container {
     width: 50%;
-    text-align: center;
 }
