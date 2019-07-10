@@ -1,0 +1,27 @@
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.main_image {
+    max-width: 100%;
+    height: auto;
+}
+
+/* .sidebar {
+    flex-direction: column; */
+}
+
+.albumBlocks {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+/* 
+h4 {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+} */
