@@ -11,25 +11,91 @@
     <title>Document</title>
     <link rel="stylesheet" href="Styles/main.css">
     <link rel="stylesheet" href="Styles/footer.css">
+    <link rel="stylesheet" href="Styles/home.css">
 </head>
 
 <body>
+    <!-- NavBar -->
     <header class="header">
-        <img class="logo" src="johnlegend.png">
+        <img class="logo" src="Images/johnlegend.png" alt="John Legend Logo">
     </header>
     <nav class="navbar">
         <ul class="navbar__list">
-            <li class="listitem"><a href="personal.html">Personal</a></li>
-            <li class="listitem"><a href="career.html">Career</a></li>
-            <li class="listitem"><a href="newsFeed.html">News Feed</a></li>
+            <li><a class="listitem" href="personal.html">Personal</a></li>
+            <li><a class="listitem" href="career.html">Career</a></li>
+            <li><a class="listitem" href="newsFeed.html">News Feed</a></li>
         </ul>
     </nav>
     <main>
-        <h1 class="pageTitle">Home</h1>
-        <section>
-            <h2 class="name">John Legend</h2>
-            <h4 class="name name__alias">John Roger Stephens</h4>
+        <!-- Decorative block immediately under navbar, page name, portrait image -->
+        <section class="topSection">
+            <section class="block"></section>
+            <section class="pageNameContainer">
+                <h1 class="pageName">Home</h1>
+            </section>
+            <img class="imgPortrait" src="Images/johnlegendportrait.jpg" alt="John Legend Portrait">
+
         </section>
+
+        <section class="bio1">
+            <h2 class="name">John Legend</h2>
+            <section class="bio1__info">
+                <h4 class="bio1__info__born">Born:</h4>
+                <p class="bio1__info__more">John Roger Stephens <br/>
+                    December 28, 1978 (age 40) <br/>
+                    Springfield, Ohio, U.S.</p>
+            </section>
+        </section>
+
+        <section class="bio2">
+            <h4>Collaborators</h4>
+            <ul class="collaboratorList">
+                <li>
+                    <a class="collaboratorList--a" target="_blank" href="http://www.esperanzaspalding.com/">
+                        <img class="EsperanzaImg" src="Images/Esperanza-Spalding.jpeg" alt="Esperanza Spalding" />
+                    </a>
+                    <br/>
+                    Esperanza Spalding
+                </li>
+                <li>
+                    <a class="collaboratorList--a" target="_blank" href="http://www.steviewonder.net/">
+                        <img class="StevieImg" src="Images/Stevie-Wonder.jpeg" alt="Stevie Wonder">
+                    </a>
+                    <br/>
+                    Stevie Wonder
+                </li>
+                <li>
+                    <a class="collaboratorList--a" target="_blank" href="https://www.arianagrande.com/">
+                        <img class="ArianaImg" src="Images/Ariana-Grande.png" alt="Ariana Grande">
+                    </a>
+                    <br/>
+                    Ariana Grande
+                </li>
+                <li>
+                    <a class="collaboratorList--a" target="_blank" href="https://the-roots.weebly.com/">
+                        <img class="TheRootsImg" src="Images/The-Roots.jpg" alt="The Roots">
+                    </a>
+                    <br/>
+                    The Roots
+                </li>
+                <li>
+                    <a class="collaboratorList--a" target="_blank" href="https://www.raphaelsaadiqmusic.com/">
+                        <img class="RaphaelImg" src="Images/Raphael-Saadiq.jpeg" alt="Raphael Saadiq">
+                    </a>
+                    <br/>
+                    Raphael Saadiq
+                </li>
+                <li>
+                    <a class="collaboratorList--a" target="_blank" href="https://www.chanceraps.com/">
+                        <img class="ChanceImg" src="Images/Chance-The-Rapper.jpeg" alt="Chance The Rapper">
+                    </a>
+                    <br/>
+                    Chance The Rapper
+                </li>
+            </ul>
+            
+        </section>
+
     </main>
     <footer class="footer">
         <ul class="ul__socialLinks">
