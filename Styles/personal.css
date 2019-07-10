@@ -1,0 +1,40 @@
+.h1 {
+    text-align: center;
+
+}
+.JohnLegend_image {
+    height: 185px;
+    width: auto;
+}
+.bioSection {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center; 
+}
+
+.h3 {
+    text-align: center;
+}
+
+.Chrissy_image {
+    height: 200px;
+    width: auto;
+}
+
+.Luna_image {
+    height: 200px;
+    width: auto;
+}
+
+.Miles_image {
+    height: 200px;
+    width: auto;
+}
+
+.familyContainer {
+    display: flex;
+    flex-direction: row;
+    
+
+}
