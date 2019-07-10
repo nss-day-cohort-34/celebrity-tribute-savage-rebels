@@ -1,24 +1,26 @@
 .topSection {
     margin: 0px;
+    background-color: #5c5757; 
+    /* Needed to match background color to section below because of mystery line */
 }
 
-.block {
+.block {   /* Added decorative block between navbar and page title */
     padding: 22px;
     background-color: #5f5f5f;
 }
 
 .imgPortrait {
-    max-width: 100%;
+    max-width: 100%; /* added to make image grow and shrink */
     height: auto;
 }
 
-.pageNameContainer {
+.pageNameContainer { /* contains only the word "Home" at the top of page */
     display: flex;
     justify-content: center;
     background-color: #868686;
 }
 
-.pageName {
+.pageName { /* the word "home" contained in .pageNameContainer */
     color: #efecec;
     margin-top: 12px;
     margin-bottom: 6px;
@@ -26,7 +28,7 @@
     font-size: .9em;
 }
 
-.bio1 {
+.bio1 { /* contains "John Legend" name under main portrait image and the information about where he was born */
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -34,31 +36,49 @@
     background-color: #5c5757;
     padding: 10px;
     text-transform: uppercase;
+    padding: 0px;
 }
 
-.name {
+.name { /* "John Legend" below main portrait image */
+    font-size: 18px;
     font-weight: 100;
 }
 
-.bio2 {
+.bio1__info { /* Contains "Born:" plus information after */
+    font-size: 13px;
+    font-weight: 100;
+    margin: 0px;
+}
+
+.bio1__info__born {
+    margin: 2px 0px 0px 0px;
+}
+
+.bio1__info__more {
+    margin: 5px 0px 5px 0px;
+    font-size: 10px;
+}
+
+.bio2 { /* Contains the word "Collaborators" along with images, links, and names */
     background-color: #efecec;
     color: #5c5757;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 }
 
-.collaboratorList {
+.collaboratorList { /* ul which contains images, links, and names of Collaborators */
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     list-style: none;
     font-size: .5em;
+    margin: 0px 0px 5px 0px;
 }
 
 .EsperanzaImg {
-    height: 100px;
-    width: auto;
+    height: auto;
+    width: 100px;
 }
 
 .StevieImg {
