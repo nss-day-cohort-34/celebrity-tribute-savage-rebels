@@ -1,0 +1,30 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: auto 0;
+}
+
+.introduction {
+    
+}
+
+.skillsTalents {
+
+}
+
+.awards {
+
+}
+
+.placesLived {
+
+}
+
+h4 {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+}
