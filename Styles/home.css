@@ -76,6 +76,10 @@
     margin: 0px 0px 5px 0px;
 }
 
+.collaboratorList--a {
+    text-decoration: none;
+}
+
 .EsperanzaImg {
     height: auto;
     width: 100px;
