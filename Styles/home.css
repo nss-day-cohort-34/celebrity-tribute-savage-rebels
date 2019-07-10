@@ -30,24 +30,26 @@
 
 .bio1 { /* contains "John Legend" name under main portrait image and the information about where he was born */
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     color: #efecec;
     background-color: #5c5757;
     padding: 10px;
     text-transform: uppercase;
-    padding: 0px;
+    padding: 10px;
 }
 
 .name { /* "John Legend" below main portrait image */
     font-size: 18px;
     font-weight: 100;
+    padding: 0px 30px 0px 0px;
 }
 
 .bio1__info { /* Contains "Born:" plus information after */
     font-size: 13px;
     font-weight: 100;
     margin: 0px;
+    padding: 0px 0px 0px 30px;
 }
 
 .bio1__info__born {
@@ -67,9 +69,13 @@
     align-items: center;
 }
 
+.bio2__title {
+    padding: 0px 20px 50px 20px;
+}
+
 .collaboratorList { /* ul which contains images, links, and names of Collaborators */
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     list-style: none;
     font-size: .5em;
@@ -110,3 +116,17 @@
     width: 100px;
 }
 
+.KanyeImg {
+    height: auto;
+    width: 100px;
+}
+
+.SaraImg {
+    height: auto;
+    width: 100px;
+}
+
+.MeghanImg {
+    height: auto;
+    width: 100px;
+}
