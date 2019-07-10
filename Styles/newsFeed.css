@@ -9,10 +9,11 @@
 
 .newsFeed__section {
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
     display: flex;
     flex-direction: row;
     align-content: center;
+    line-height: 30px;
     margin: 0 0 25px 0;
 }
 
@@ -21,4 +22,14 @@
 }
 .newsFeedContent__ul {
     list-style-type: none;
+}
+
+.content__container {
+    width: 50%;
+    text-align: center;
+}
+
+.image__container {
+    width: 50%;
+    text-align: center;
 }
