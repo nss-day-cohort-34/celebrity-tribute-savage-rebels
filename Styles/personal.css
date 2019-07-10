@@ -1,0 +1,57 @@
+.h1 {
+    text-align: center;
+    color: #363434; 
+    margin: 0%; 
+
+}
+.JohnLegend_image {
+    height: 185px;
+    width: auto;
+}
+.bioSection {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center; 
+    background-color: #efecec; 
+    color: #363434; 
+}
+
+.familyHeader {
+    text-align: center;
+    background-color: #5c5757;
+    color: #efecec; 
+    padding: 10px;
+    
+}
+
+.Chrissy_image {
+    height: 200px;
+    width: auto;
+}
+
+.Luna_image {
+    height: 200px;
+    width: auto;
+}
+
+.Miles_image {
+    height: 200px;
+    width: auto;
+}
+
+.familyContent {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    list-style-type: none; 
+    background-color: #efecec;
+    color: #363434; 
+    margin: 0px; 
+    
+
+}
+
+.personalBody {
+    background-color: #efecec; 
+}
